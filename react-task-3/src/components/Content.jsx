@@ -3,8 +3,9 @@ import "./Content.css";
 import Arrow from "../../public/white-arrow.svg";
 import Infos from "./Infos";
 import FeatureCards from "./FeatureCards";
-import ClientReview from "./ClientReview";
 
+import Footer from './Footer'
+import ClientReview from "./ClientReview";
 
 function Content() {
   return (
@@ -49,7 +50,6 @@ function Content() {
           description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
         />
       </div>
-
       <div className="client-review">
         <div className="client-review_title">CLIENT TESTIMONIALS</div>
         <div className="client-reviews">
@@ -73,6 +73,8 @@ function Content() {
           />
         </div>
       </div>
+
+        <Footer />
     </>
   );
 }
