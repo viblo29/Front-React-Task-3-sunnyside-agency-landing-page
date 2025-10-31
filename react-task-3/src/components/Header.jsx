@@ -1,4 +1,4 @@
-import './header.css'
+import './Header.css'
 import sunnyside_logo from '../../public/sunnyside.svg'
 
 function Header() {
