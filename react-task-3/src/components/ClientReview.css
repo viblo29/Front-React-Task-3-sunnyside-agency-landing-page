@@ -1,0 +1,45 @@
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.client_pfp{
+    margin-top: 81px;
+    margin-bottom: 58px;
+}
+
+.description{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.13px;
+    line-height: 32px;
+    max-width: 350px;
+    margin-bottom: 69px;
+    color: #5B636D;
+    font-weight: 600;
+}
+
+.about-client{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.client-name{
+    font-family: "Fraunces", serif; 
+    font-weight: 900;
+    font-family: 18px;
+    letter-spacing: -0.13px;
+    color: #24303E;
+}
+
+.client-position{
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}
