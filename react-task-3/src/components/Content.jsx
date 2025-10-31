@@ -3,6 +3,7 @@ import "./Content.css";
 import Arrow from "../../public/white-arrow.svg";
 import Infos from "./Infos";
 import FeatureCards from "./FeatureCards";
+import ClientReview from "./ClientReview";
 
 
 function Content() {
@@ -38,15 +39,39 @@ function Content() {
         <FeatureCards
           title="Graphic Design"
           color="#24554A"
-          backgroundImage= "../../public/cherry.svg"
+          backgroundImage= "/./cherry.svg"
           description="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
         />
         <FeatureCards 
           title="Photography"
           color="#052C3B"
-          backgroundImage="../../public/mandarin.svg"
+          backgroundImage="/./mandarin.svg"
           description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
         />
+      </div>
+
+      <div className="client-review">
+        <div className="client-review_title">CLIENT TESTIMONIALS</div>
+        <div className="client-reviews">
+          <ClientReview
+            imageSrc="/./user-profile-1.svg"
+            description="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
+            clientName="Emily R."
+            clientPosition="Marketing Director"
+          />
+            <ClientReview
+              imageSrc="/./user-profile-2.svg"
+              description="Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience."
+              clientName="Thomas S."
+              clientPosition="Chief Operating Officer"
+            />
+          <ClientReview
+            imageSrc="/./user-profile-3.svg"
+            description="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
+            clientName="Jennie F."
+            clientPosition="Business Owner"
+          />
+        </div>
       </div>
     </>
   );
