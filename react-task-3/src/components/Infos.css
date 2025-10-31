@@ -60,6 +60,7 @@
     background-color: var(--underline-color, #f16886);
     opacity: 25%;
     border-radius: 28px;
+    transition: opacity 0.4s ease-out; 
 }
 
 .info_learn-more:hover::after {
