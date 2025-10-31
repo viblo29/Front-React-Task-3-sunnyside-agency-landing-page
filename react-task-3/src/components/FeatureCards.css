@@ -1,0 +1,27 @@
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    background-position: center;
+    padding-bottom: 59px;
+    text-align: center;
+    gap: 27px;
+}
+
+.feature-card_title{
+    width: 339px;
+    font-weight: 900;
+
+    font-size: 28px;
+    letter-spacing: -0.2px;
+
+}
+
+.feature-card_description{
+    width: 339px;
+    letter-spacing: -0.11px;
+    line-height: 27px;
+    font-family: "Barlow", sans-serif;
+}
