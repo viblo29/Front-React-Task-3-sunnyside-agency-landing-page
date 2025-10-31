@@ -3,7 +3,7 @@ import "./Content.css";
 import Arrow from "../../public/white-arrow.svg";
 import Infos from "./Infos";
 import FeatureCards from "./FeatureCards";
-
+import Footer from './Footer'
 
 function Content() {
   return (
@@ -48,6 +48,7 @@ function Content() {
           description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
         />
       </div>
+      <Footer />
     </>
   );
 }
