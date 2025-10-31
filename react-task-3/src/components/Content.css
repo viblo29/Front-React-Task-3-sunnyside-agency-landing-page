@@ -1,0 +1,57 @@
+.first_page{
+    width: 100vw;
+    height: 800px;
+    background-image: url(../../public/orange.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.first_page_title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 8.75px;
+    width: 100%;
+    margin-top: 105px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.first_page_arrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 96.5px;
+}
+
+.info_image{
+    display: flex;
+    width: 100%;
+
+}
+
+.info-image{
+    width: 50%;
+    height: 600px;
+    background-image: url(../../public/egg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-image2{
+    width: 50%;
+    height: 600px;
+    background-image: url(../../public/pink-cup.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info_image2{
+    display: flex;
+    flex-direction: row-reverse;
+}

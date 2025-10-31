@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px;
+    padding-left: 40px;
+    padding-right: 48px;
+    color: #FFFFFF;
+}
+
+.header_right{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 48px;    
+}
+
+.header_contact{
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 140px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.header_contact:hover{
+    background-color: #77cef5;
+    color: white;
+}
